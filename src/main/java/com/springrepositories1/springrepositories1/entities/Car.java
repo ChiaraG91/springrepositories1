@@ -25,6 +25,9 @@ public class Car {
                 this.currentPrice = currentPrice;
         }
 
+        public Car() {
+        }
+
         public Long getId() {
                 return id;
         }
